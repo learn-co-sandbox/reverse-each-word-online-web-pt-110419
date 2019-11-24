@@ -1,5 +1,5 @@
 def reverse_eacg_word(sentence1)
-  sentence1.reverse_each do |words|
-    words.reverse
+  sentence1.each do |words|
+    words.reverse_each
   end
 end
