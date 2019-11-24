@@ -1,1 +1,3 @@
-reverse_eacg_word("")
+def reverse_eacg_word(sentence1)
+  sentence1.each do |words|
+    words.reverse
